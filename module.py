@@ -49,7 +49,7 @@ def save_output(output_dir, final_data):
 
     for identifier in final_data:
         json_data_2 = copy.deepcopy(json_data)
-        json_data_2["minecraft:attachable"]["description"]["identifier"] = f"cloudf:{identifier}"
+        json_data_2["minecraft:attachable"]["description"]["identifier"] = f"cloud:{identifier}"
         json_data_2["minecraft:attachable"]["description"]["textures"]["default"] = f"textures/items/{identifier}"
 
         print(f"Identifier: {identifier}")
