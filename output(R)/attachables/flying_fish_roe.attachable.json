@@ -2,9 +2,9 @@
     "format_version": "1.10.0",
     "minecraft:attachable": {
         "description": {
-            "identifier": "namespace:flying_fish_roe",
+            "identifier": "cloud:flying_fish_roe",
             "render_controllers": [
-                "controller.render.item_default"
+                "controller.render.large_item"
             ],
             "materials": {
                 "default": "entity_alphatest",

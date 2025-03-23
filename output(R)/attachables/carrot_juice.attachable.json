@@ -2,9 +2,9 @@
     "format_version": "1.10.0",
     "minecraft:attachable": {
         "description": {
-            "identifier": "namespace:carrot_juice",
+            "identifier": "cloud:carrot_juice",
             "render_controllers": [
-                "controller.render.item_default"
+                "controller.render.large_item"
             ],
             "materials": {
                 "default": "entity_alphatest",

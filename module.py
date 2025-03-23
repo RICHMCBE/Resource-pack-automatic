@@ -8,7 +8,7 @@ json_text = '''
 	"minecraft:attachable": {
 		"description": {
 			"identifier": "namespace:item_32",
-			"render_controllers": ["controller.render.item_default"],
+			"render_controllers": ["controller.render.large_item"],
 			"materials": {
 				"default": "entity_alphatest",
 				"enchanted": "entity_alphatest_glint"
